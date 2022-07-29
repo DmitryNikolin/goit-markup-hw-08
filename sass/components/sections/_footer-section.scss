@@ -1,0 +1,34 @@
+.footer {
+    width: 100%;
+    padding-top: calc(2 * var(--items-between));
+    padding-bottom: calc(2 * var(--items-between));
+    color: var(--menu-bck);
+    background-color: var(--top-main-bck);
+}
+
+.footer__wrap {
+    @extend %container;
+    text-align: center;
+
+    @media screen and (min-width: 768px) {
+        & {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+    }
+
+    @media screen and (max-width: 1199px) {
+        & {
+            text-align: center;
+        }
+    }
+
+    @media screen and (min-width: 1200px) {
+        & {
+            justify-content: start;
+            align-items: baseline;
+            text-align: left;
+        }
+    }
+}

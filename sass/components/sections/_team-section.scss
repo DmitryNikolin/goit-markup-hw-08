@@ -1,0 +1,50 @@
+.team {
+    @extend %section;
+    background-color: var(--bottom-main-bck);
+}
+
+.team__wrap {
+    @extend %container;
+}
+
+.team__title {
+    @extend %title;
+    margin: 0 0 50px;
+}
+
+.team__item {
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    background: var(--menu-bck);
+
+    @media screen and (max-width: 479px) {
+        width: 100%;
+    }
+
+    @media screen and (min-width: 480px) and (max-width: 767px) {
+        width: 450px;
+    }
+
+    &+& {
+        @media screen and (max-width: 767px) {
+            margin-top: var(--items-between);
+        }
+    }
+
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+        flex-basis: calc(100% / 2 - var(--items-between));
+        margin-left: var(--items-between);
+        margin-top: var(--items-between);
+    }
+
+    @media screen and (min-width: 1200px) {
+        flex-basis: calc(100% / 4 - var(--items-between));
+        margin-left: var(--items-between);
+        margin-top: var(--items-between);
+    }
+}
+
+.item-text {
+    padding-top: var(--items-between);
+    padding-bottom: var(--items-between);
+}

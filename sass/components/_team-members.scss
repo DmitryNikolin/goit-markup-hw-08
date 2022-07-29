@@ -1,0 +1,60 @@
+.team__list {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    color: var(--primary-text-color);
+
+    @media screen and (min-width: 768px) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-left: calc(-1 * var(--items-between));
+        margin-top: calc(-1 * var(--items-between));
+    }
+}
+
+.team__thumb {
+    @media screen and (max-width: 479px) {
+        width: 100%;
+    }
+
+    @media screen and (min-width: 480px) {
+        width: 450px;
+    }
+
+    @media screen and (min-width: 768px) {
+        width: 354px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        width: 270px;
+    }
+}
+
+.team__descr {
+    background-color: var(--menu-bck);
+    padding-top: var(--items-between);
+    padding-bottom: 24px;
+
+    @media screen and (min-width: 1200px) {
+        padding-bottom: var(--items-between);
+    }
+}
+
+.team__person {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+
+.team__job {
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    color: var(--primary-contact-color);
+}

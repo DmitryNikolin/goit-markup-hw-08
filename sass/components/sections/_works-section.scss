@@ -1,0 +1,48 @@
+.works {
+    @media screen and (max-width: 1199px) {
+        display: none;
+    }
+
+    @extend %section;
+}
+
+.works__wrap {
+    @extend %container;
+}
+
+.works__title {
+    @extend %title;
+}
+
+.works__list {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.works__item {
+    position: relative;
+
+    &+& {
+        margin-left: 30px;
+    }
+}
+
+.works__image {
+    display: flex;
+    position: relative;
+}
+
+.works__descr {
+    @extend %subtitle;
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--menu-bck);
+    background: rgba(47, 48, 58, 0.8);
+}

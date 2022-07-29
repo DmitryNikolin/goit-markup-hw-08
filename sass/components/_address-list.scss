@@ -1,0 +1,39 @@
+.address {
+    font-style: normal;
+}
+
+.address__list {
+    @extend %list;
+
+    @media screen and (max-width: 1199px) {
+        & {
+            margin-bottom: calc(2 * var(--items-between));
+        }
+    }
+}
+
+.address__item {
+    &:not(:first-child) {
+        margin-top: 9px;
+    }
+}
+
+.address__title {
+    margin-top: 20px;
+}
+
+.address__link {
+    @extend %link;
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--footer-contact-color);
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: var(--cubic-bezier);
+
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+    }
+}
