@@ -1,14 +1,5 @@
 .join {
-    @media screen and (min-width: 768px) and (max-width: 1199px) {
-        & {
-            width: 354px;
-            max-width: 354px;
-            margin-bottom: 0;
-            margin-right: var(--items-between);
-        }
-    }
-
-    @media screen and (max-width: 1199px) {
+    @media screen and (max-width: 768px) {
         & {
             margin-bottom: calc(2 * var(--items-between));
         }
