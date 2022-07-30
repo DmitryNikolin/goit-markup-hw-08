@@ -116,13 +116,67 @@
 						<li class="gallery__item">
 							<a class="gallery__link" href="#">
 								<div class="gallery__overlay">
-									<img
-										srcset="./images/portfolio1.jpg 1x, ./images/portfolio1@2x.jpg 2x"
-										class="gallery__img"
-										src="./images/portfolio1.jpg"
-										alt="Веб-сайт на экрані ноутбука"
-									/>
-									<!-- <img class="gallery__img" src="images/portfolio1.jpg" alt="Веб-сайт на экрані ноутбука" width="370" /> -->
+									<picture>
+										<source
+											srcset="
+												./images/desktop-portfolio1.webp    1x,
+												./images/desktop-portfolio1@2x.webp 2x,
+												./images/desktop-portfolio1@3x.webp 3x
+											"
+											media="(min-width: 1200px)"
+											type="image/webp"
+										/>
+										<source
+											srcset="
+												./images/desktop-portfolio1.jpg    1x,
+												./images/desktop-portfolio1@2x.jpg 2x,
+												./images/desktop-portfolio1@3x.jpg 3x
+											"
+											media="(min-width: 1200px)"
+											type="image/jpeg"
+										/>
+
+										<source
+											srcset="
+												./images/tablet-portfolio1.webp    1x,
+												./images/tablet-portfolio1@2x.webp 2x,
+												./images/tablet-portfolio1@3x.webp 3x
+											"
+											media="(min-width: 768px) and (max-width: 1199px)"
+											type="image/webp"
+										/>
+										<source
+											srcset="./images/tablet-portfolio1.jpg 1x, ./images/tablet-portfolio1@2x.jpg 2x, ./images/tablet-portfolio1@3x.jpg 3x"
+											media="(min-width: 768px) and (max-width: 1199px)"
+											type="image/jpeg"
+										/>
+
+										<source
+											srcset="
+												./images/mobile-portfolio1.webp    1x,
+												./images/mobile-portfolio1@2x.webp 2x,
+												./images/mobile-portfolio1@3x.webp 3x
+											"
+											media="(max-width: 767px)"
+											type="image/webp"
+										/>
+										<source
+											srcset="./images/mobile-portfolio1.jpg 1x, ./images/mobile-portfolio1@2x.jpg 2x, ./images/mobile-portfolio1@3x.jpg 3x"
+											media="(max-width: 767px)"
+											type="image/jpeg"
+										/>
+
+										<img
+											srcset="
+												./images/mobile-portfolio1.jpg     450w,
+												./images/mobile-portfolio1@2x.jpg  900w,
+												./images/mobile-portfolio1@3x.jpg 1350w
+											"
+											sizes="50vw"
+											src="./images/mobile-portfolio1.jpg"
+											alt="Веб-сайт на экрані ноутбука"
+										/>
+									</picture>
 									<div class="gallery__card">
 										<h3 class="gallery__text">
 											Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
@@ -139,13 +193,67 @@
 						<li class="gallery__item">
 							<a class="gallery__link" href="#">
 								<div class="gallery__overlay">
-									<img
-										srcset="./images/portfolio2.jpg 1x, ./images/portfolio2@2x.jpg 2x"
-										class="gallery__img"
-										src="./images/portfolio2.jpg"
-										alt="Зображення двох баскетболістів"
-									/>
-									<!-- <img class="gallery__img" src="images/portfolio2.jpg" alt="Зображення двох баскетболістів" width="370" /> -->
+									<picture>
+										<source
+											srcset="
+												./images/desktop-portfolio2.webp    1x,
+												./images/desktop-portfolio2@2x.webp 2x,
+												./images/desktop-portfolio2@3x.webp 3x
+											"
+											media="(min-width: 1200px)"
+											type="image/webp"
+										/>
+										<source
+											srcset="
+												./images/desktop-portfolio2.jpg    1x,
+												./images/desktop-portfolio2@2x.jpg 2x,
+												./images/desktop-portfolio2@3x.jpg 3x
+											"
+											media="(min-width: 1200px)"
+											type="image/jpeg"
+										/>
+
+										<source
+											srcset="
+												./images/tablet-portfolio2.webp    1x,
+												./images/tablet-portfolio2@2x.webp 2x,
+												./images/tablet-portfolio2@3x.webp 3x
+											"
+											media="(min-width: 768px) and (max-width: 1199px)"
+											type="image/webp"
+										/>
+										<source
+											srcset="./images/tablet-portfolio2.jpg 1x, ./images/tablet-portfolio2@2x.jpg 2x, ./images/tablet-portfolio2@3x.jpg 3x"
+											media="(min-width: 768px) and (max-width: 1199px)"
+											type="image/jpeg"
+										/>
+
+										<source
+											srcset="
+												./images/mobile-portfolio2.webp    1x,
+												./images/mobile-portfolio2@2x.webp 2x,
+												./images/mobile-portfolio2@3x.webp 3x
+											"
+											media="(max-width: 767px)"
+											type="image/webp"
+										/>
+										<source
+											srcset="./images/mobile-portfolio2.jpg 1x, ./images/mobile-portfolio2@2x.jpg 2x, ./images/mobile-portfolio2@3x.jpg 3x"
+											media="(max-width: 767px)"
+											type="image/jpeg"
+										/>
+
+										<img
+											srcset="
+												./images/mobile-portfolio2.jpg     450w,
+												./images/mobile-portfolio2@2x.jpg  900w,
+												./images/mobile-portfolio2@3x.jpg 1350w
+											"
+											sizes="50vw"
+											src="./images/mobile-portfolio2.jpg"
+											alt="Зображення двох баскетболістів"
+										/>
+									</picture>
 									<div class="gallery__card">
 										<h3 class="gallery__text">
 											Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
@@ -162,13 +270,67 @@
 						<li class="gallery__item">
 							<a class="gallery__link" href="#">
 								<div class="gallery__overlay">
-									<img
-										srcset="./images/portfolio3.jpg 1x, ./images/portfolio3@2x.jpg 2x"
-										class="gallery__img"
-										src="./images/portfolio3.jpg"
-										alt="Вивіска ресторана"
-									/>
-									<!-- <img class="gallery__img" src="images/portfolio3.jpg" alt="Вивіска ресторана" width="370" /> -->
+									<picture>
+										<source
+											srcset="
+												./images/desktop-portfolio3.webp    1x,
+												./images/desktop-portfolio3@2x.webp 2x,
+												./images/desktop-portfolio3@3x.webp 3x
+											"
+											media="(min-width: 1200px)"
+											type="image/webp"
+										/>
+										<source
+											srcset="
+												./images/desktop-portfolio3.jpg    1x,
+												./images/desktop-portfolio3@2x.jpg 2x,
+												./images/desktop-portfolio3@3x.jpg 3x
+											"
+											media="(min-width: 1200px)"
+											type="image/jpeg"
+										/>
+
+										<source
+											srcset="
+												./images/tablet-portfolio3.webp    1x,
+												./images/tablet-portfolio3@2x.webp 2x,
+												./images/tablet-portfolio3@3x.webp 3x
+											"
+											media="(min-width: 768px) and (max-width: 1199px)"
+											type="image/webp"
+										/>
+										<source
+											srcset="./images/tablet-portfolio3.jpg 1x, ./images/tablet-portfolio3@2x.jpg 2x, ./images/tablet-portfolio3@3x.jpg 3x"
+											media="(min-width: 768px) and (max-width: 1199px)"
+											type="image/jpeg"
+										/>
+
+										<source
+											srcset="
+												./images/mobile-portfolio3.webp    1x,
+												./images/mobile-portfolio3@2x.webp 2x,
+												./images/mobile-portfolio3@3x.webp 3x
+											"
+											media="(max-width: 767px)"
+											type="image/webp"
+										/>
+										<source
+											srcset="./images/mobile-portfolio3.jpg 1x, ./images/mobile-portfolio3@2x.jpg 2x, ./images/mobile-portfolio3@3x.jpg 3x"
+											media="(max-width: 767px)"
+											type="image/jpeg"
+										/>
+
+										<img
+											srcset="
+												./images/mobile-portfolio3.jpg     450w,
+												./images/mobile-portfolio3@2x.jpg  900w,
+												./images/mobile-portfolio3@3x.jpg 1350w
+											"
+											sizes="50vw"
+											src="./images/mobile-portfolio3.jpg"
+											alt="Вивіска ресторана"
+										/>
+									</picture>
 									<div class="gallery__card">
 										<h3 class="gallery__text">
 											Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
@@ -185,13 +347,67 @@
 						<li class="gallery__item">
 							<a class="gallery__link" href="#">
 								<div class="gallery__overlay">
-									<img
-										srcset="./images/portfolio4.jpg 1x, ./images/portfolio4@2x.jpg 2x"
-										class="gallery__img"
-										src="./images/portfolio4.jpg"
-										alt="Навушники"
-									/>
-									<!-- <img class="gallery__img" src="images/portfolio4.jpg" alt="Навушники" width="370" /> -->
+									<picture>
+										<source
+											srcset="
+												./images/desktop-portfolio4.webp    1x,
+												./images/desktop-portfolio4@2x.webp 2x,
+												./images/desktop-portfolio4@3x.webp 3x
+											"
+											media="(min-width: 1200px)"
+											type="image/webp"
+										/>
+										<source
+											srcset="
+												./images/desktop-portfolio4.jpg    1x,
+												./images/desktop-portfolio4@2x.jpg 2x,
+												./images/desktop-portfolio4@3x.jpg 3x
+											"
+											media="(min-width: 1200px)"
+											type="image/jpeg"
+										/>
+
+										<source
+											srcset="
+												./images/tablet-portfolio4.webp    1x,
+												./images/tablet-portfolio4@2x.webp 2x,
+												./images/tablet-portfolio4@3x.webp 3x
+											"
+											media="(min-width: 768px) and (max-width: 1199px)"
+											type="image/webp"
+										/>
+										<source
+											srcset="./images/tablet-portfolio4.jpg 1x, ./images/tablet-portfolio4@2x.jpg 2x, ./images/tablet-portfolio4@3x.jpg 3x"
+											media="(min-width: 768px) and (max-width: 1199px)"
+											type="image/jpeg"
+										/>
+
+										<source
+											srcset="
+												./images/mobile-portfolio4.webp    1x,
+												./images/mobile-portfolio4@2x.webp 2x,
+												./images/mobile-portfolio4@3x.webp 3x
+											"
+											media="(max-width: 767px)"
+											type="image/webp"
+										/>
+										<source
+											srcset="./images/mobile-portfolio4.jpg 1x, ./images/mobile-portfolio4@2x.jpg 2x, ./images/mobile-portfolio4@3x.jpg 3x"
+											media="(max-width: 767px)"
+											type="image/jpeg"
+										/>
+
+										<img
+											srcset="
+												./images/mobile-portfolio4.jpg     450w,
+												./images/mobile-portfolio4@2x.jpg  900w,
+												./images/mobile-portfolio4@3x.jpg 1350w
+											"
+											sizes="50vw"
+											src="./images/mobile-portfolio4.jpg"
+											alt="Навушники"
+										/>
+									</picture>									
 									<div class="gallery__card">
 										<h3 class="gallery__text">
 											Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
@@ -208,13 +424,67 @@
 						<li class="gallery__item">
 							<a class="gallery__link" href="#">
 								<div class="gallery__overlay">
-									<img
-										srcset="./images/portfolio5.jpg 1x, ./images/portfolio5@2x.jpg 2x"
-										class="gallery__img"
-										src="./images/portfolio5.jpg"
-										alt="Дві коробки"
-									/>
-									<!-- <img class="gallery__img" src="images/portfolio5.jpg" alt="Дві коробки" width="370" /> -->
+									<picture>
+										<source
+											srcset="
+												./images/desktop-portfolio5.webp    1x,
+												./images/desktop-portfolio5@2x.webp 2x,
+												./images/desktop-portfolio5@3x.webp 3x
+											"
+											media="(min-width: 1200px)"
+											type="image/webp"
+										/>
+										<source
+											srcset="
+												./images/desktop-portfolio5.jpg    1x,
+												./images/desktop-portfolio5@2x.jpg 2x,
+												./images/desktop-portfolio5@3x.jpg 3x
+											"
+											media="(min-width: 1200px)"
+											type="image/jpeg"
+										/>
+
+										<source
+											srcset="
+												./images/tablet-portfolio5.webp    1x,
+												./images/tablet-portfolio5@2x.webp 2x,
+												./images/tablet-portfolio5@3x.webp 3x
+											"
+											media="(min-width: 768px) and (max-width: 1199px)"
+											type="image/webp"
+										/>
+										<source
+											srcset="./images/tablet-portfolio5.jpg 1x, ./images/tablet-portfolio5@2x.jpg 2x, ./images/tablet-portfolio5@3x.jpg 3x"
+											media="(min-width: 768px) and (max-width: 1199px)"
+											type="image/jpeg"
+										/>
+
+										<source
+											srcset="
+												./images/mobile-portfolio5.webp    1x,
+												./images/mobile-portfolio5@2x.webp 2x,
+												./images/mobile-portfolio5@3x.webp 3x
+											"
+											media="(max-width: 767px)"
+											type="image/webp"
+										/>
+										<source
+											srcset="./images/mobile-portfolio5.jpg 1x, ./images/mobile-portfolio5@2x.jpg 2x, ./images/mobile-portfolio5@3x.jpg 3x"
+											media="(max-width: 767px)"
+											type="image/jpeg"
+										/>
+
+										<img
+											srcset="
+												./images/mobile-portfolio5.jpg     450w,
+												./images/mobile-portfolio5@2x.jpg  900w,
+												./images/mobile-portfolio5@3x.jpg 1350w
+											"
+											sizes="50vw"
+											src="./images/mobile-portfolio5.jpg"
+											alt="Дві коробки"
+										/>
+									</picture>
 									<div class="gallery__card">
 										<h3 class="gallery__text">
 											Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
@@ -231,13 +501,67 @@
 						<li class="gallery__item">
 							<a class="gallery__link" href="#">
 								<div class="gallery__overlay">
-									<img
-										srcset="./images/portfolio6.jpg 1x, ./images/portfolio6@2x.jpg 2x"
-										class="gallery__img"
-										src="./images/portfolio6.jpg"
-										alt="Веб-сайт на экрані монітора"
-									/>
-									<!-- <img class="gallery__img" src="images/portfolio6.jpg" alt="Веб-сайт на экрані монітора" width="370" /> -->
+									<picture>
+										<source
+											srcset="
+												./images/desktop-portfolio6.webp    1x,
+												./images/desktop-portfolio6@2x.webp 2x,
+												./images/desktop-portfolio6@3x.webp 3x
+											"
+											media="(min-width: 1200px)"
+											type="image/webp"
+										/>
+										<source
+											srcset="
+												./images/desktop-portfolio6.jpg    1x,
+												./images/desktop-portfolio6@2x.jpg 2x,
+												./images/desktop-portfolio6@3x.jpg 3x
+											"
+											media="(min-width: 1200px)"
+											type="image/jpeg"
+										/>
+
+										<source
+											srcset="
+												./images/tablet-portfolio6.webp    1x,
+												./images/tablet-portfolio6@2x.webp 2x,
+												./images/tablet-portfolio6@3x.webp 3x
+											"
+											media="(min-width: 768px) and (max-width: 1199px)"
+											type="image/webp"
+										/>
+										<source
+											srcset="./images/tablet-portfolio6.jpg 1x, ./images/tablet-portfolio6@2x.jpg 2x, ./images/tablet-portfolio6@3x.jpg 3x"
+											media="(min-width: 768px) and (max-width: 1199px)"
+											type="image/jpeg"
+										/>
+
+										<source
+											srcset="
+												./images/mobile-portfolio6.webp    1x,
+												./images/mobile-portfolio6@2x.webp 2x,
+												./images/mobile-portfolio6@3x.webp 3x
+											"
+											media="(max-width: 767px)"
+											type="image/webp"
+										/>
+										<source
+											srcset="./images/mobile-portfolio6.jpg 1x, ./images/mobile-portfolio6@2x.jpg 2x, ./images/mobile-portfolio6@3x.jpg 3x"
+											media="(max-width: 767px)"
+											type="image/jpeg"
+										/>
+
+										<img
+											srcset="
+												./images/mobile-portfolio6.jpg     450w,
+												./images/mobile-portfolio6@2x.jpg  900w,
+												./images/mobile-portfolio6@3x.jpg 1350w
+											"
+											sizes="50vw"
+											src="./images/mobile-portfolio6.jpg"
+											alt="Веб-сайт на экрані монітора"
+										/>
+									</picture>
 									<div class="gallery__card">
 										<h3 class="gallery__text">
 											Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
@@ -254,13 +578,67 @@
 						<li class="gallery__item">
 							<a class="gallery__link" href="#">
 								<div class="gallery__overlay">
-									<img
-										srcset="./images/portfolio7.jpg 1x, ./images/portfolio7@2x.jpg 2x"
-										class="gallery__img"
-										src="./images/portfolio7.jpg"
-										alt="Відкрита книга"
-									/>
-									<!-- <img class="gallery__img" src="images/portfolio7.jpg" alt="Відкрита книга" width="370" /> -->
+									<picture>
+										<source
+											srcset="
+												./images/desktop-portfolio7.webp    1x,
+												./images/desktop-portfolio7@2x.webp 2x,
+												./images/desktop-portfolio7@3x.webp 3x
+											"
+											media="(min-width: 1200px)"
+											type="image/webp"
+										/>
+										<source
+											srcset="
+												./images/desktop-portfolio7.jpg    1x,
+												./images/desktop-portfolio7@2x.jpg 2x,
+												./images/desktop-portfolio7@3x.jpg 3x
+											"
+											media="(min-width: 1200px)"
+											type="image/jpeg"
+										/>
+
+										<source
+											srcset="
+												./images/tablet-portfolio7.webp    1x,
+												./images/tablet-portfolio7@2x.webp 2x,
+												./images/tablet-portfolio7@3x.webp 3x
+											"
+											media="(min-width: 768px) and (max-width: 1199px)"
+											type="image/webp"
+										/>
+										<source
+											srcset="./images/tablet-portfolio7.jpg 1x, ./images/tablet-portfolio7@2x.jpg 2x, ./images/tablet-portfolio7@3x.jpg 3x"
+											media="(min-width: 768px) and (max-width: 1199px)"
+											type="image/jpeg"
+										/>
+
+										<source
+											srcset="
+												./images/mobile-portfolio7.webp    1x,
+												./images/mobile-portfolio7@2x.webp 2x,
+												./images/mobile-portfolio7@3x.webp 3x
+											"
+											media="(max-width: 767px)"
+											type="image/webp"
+										/>
+										<source
+											srcset="./images/mobile-portfolio7.jpg 1x, ./images/mobile-portfolio7@2x.jpg 2x, ./images/mobile-portfolio7@3x.jpg 3x"
+											media="(max-width: 767px)"
+											type="image/jpeg"
+										/>
+
+										<img
+											srcset="
+												./images/mobile-portfolio7.jpg     450w,
+												./images/mobile-portfolio7@2x.jpg  900w,
+												./images/mobile-portfolio7@3x.jpg 1350w
+											"
+											sizes="50vw"
+											src="./images/mobile-portfolio7.jpg"
+											alt="Відкрита книга"
+										/>
+									</picture>
 									<div class="gallery__card">
 										<h3 class="gallery__text">
 											Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
@@ -277,13 +655,67 @@
 						<li class="gallery__item">
 							<a class="gallery__link" href="#">
 								<div class="gallery__overlay">
-									<img
-										srcset="./images/portfolio8.jpg 1x, ./images/portfolio8@2x.jpg 2x"
-										class="gallery__img"
-										src="./images/portfolio8.jpg"
-										alt="Бірка з назвою"
-									/>
-									<!-- <img class="gallery__img" src="images/portfolio8.jpg" alt="Бірка з назвою" width="370" /> -->
+									<picture>
+										<source
+											srcset="
+												./images/desktop-portfolio8.webp    1x,
+												./images/desktop-portfolio8@2x.webp 2x,
+												./images/desktop-portfolio8@3x.webp 3x
+											"
+											media="(min-width: 1200px)"
+											type="image/webp"
+										/>
+										<source
+											srcset="
+												./images/desktop-portfolio8.jpg    1x,
+												./images/desktop-portfolio8@2x.jpg 2x,
+												./images/desktop-portfolio8@3x.jpg 3x
+											"
+											media="(min-width: 1200px)"
+											type="image/jpeg"
+										/>
+
+										<source
+											srcset="
+												./images/tablet-portfolio8.webp    1x,
+												./images/tablet-portfolio8@2x.webp 2x,
+												./images/tablet-portfolio8@3x.webp 3x
+											"
+											media="(min-width: 768px) and (max-width: 1199px)"
+											type="image/webp"
+										/>
+										<source
+											srcset="./images/tablet-portfolio8.jpg 1x, ./images/tablet-portfolio8@2x.jpg 2x, ./images/tablet-portfolio8@3x.jpg 3x"
+											media="(min-width: 768px) and (max-width: 1199px)"
+											type="image/jpeg"
+										/>
+
+										<source
+											srcset="
+												./images/mobile-portfolio8.webp    1x,
+												./images/mobile-portfolio8@2x.webp 2x,
+												./images/mobile-portfolio8@3x.webp 3x
+											"
+											media="(max-width: 767px)"
+											type="image/webp"
+										/>
+										<source
+											srcset="./images/mobile-portfolio8.jpg 1x, ./images/mobile-portfolio8@2x.jpg 2x, ./images/mobile-portfolio8@3x.jpg 3x"
+											media="(max-width: 767px)"
+											type="image/jpeg"
+										/>
+
+										<img
+											srcset="
+												./images/mobile-portfolio8.jpg     450w,
+												./images/mobile-portfolio8@2x.jpg  900w,
+												./images/mobile-portfolio8@3x.jpg 1350w
+											"
+											sizes="50vw"
+											src="./images/mobile-portfolio8.jpg"
+											alt="Бірка з назвою"
+										/>
+									</picture>
 									<div class="gallery__card">
 										<h3 class="gallery__text">
 											Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
@@ -300,13 +732,67 @@
 						<li class="gallery__item">
 							<a class="gallery__link" href="#">
 								<div class="gallery__overlay">
-									<img
-										srcset="./images/portfolio9.jpg 1x, ./images/portfolio9@2x.jpg 2x"
-										class="gallery__img"
-										src="./images/portfolio9.jpg"
-										alt="Руки розробника на клавиатурі ноутбука"
-									/>
-									<!-- <img class="gallery__img" src="images/portfolio9.jpg" alt="Руки розробника на клавиатурі ноутбука" width="370" /> -->
+									<picture>
+										<source
+											srcset="
+												./images/desktop-portfolio9.webp    1x,
+												./images/desktop-portfolio9@2x.webp 2x,
+												./images/desktop-portfolio9@3x.webp 3x
+											"
+											media="(min-width: 1200px)"
+											type="image/webp"
+										/>
+										<source
+											srcset="
+												./images/desktop-portfolio9.jpg    1x,
+												./images/desktop-portfolio9@2x.jpg 2x,
+												./images/desktop-portfolio9@3x.jpg 3x
+											"
+											media="(min-width: 1200px)"
+											type="image/jpeg"
+										/>
+
+										<source
+											srcset="
+												./images/tablet-portfolio9.webp    1x,
+												./images/tablet-portfolio9@2x.webp 2x,
+												./images/tablet-portfolio9@3x.webp 3x
+											"
+											media="(min-width: 768px) and (max-width: 1199px)"
+											type="image/webp"
+										/>
+										<source
+											srcset="./images/tablet-portfolio9.jpg 1x, ./images/tablet-portfolio9@2x.jpg 2x, ./images/tablet-portfolio9@3x.jpg 3x"
+											media="(min-width: 768px) and (max-width: 1199px)"
+											type="image/jpeg"
+										/>
+
+										<source
+											srcset="
+												./images/mobile-portfolio9.webp    1x,
+												./images/mobile-portfolio9@2x.webp 2x,
+												./images/mobile-portfolio9@3x.webp 3x
+											"
+											media="(max-width: 767px)"
+											type="image/webp"
+										/>
+										<source
+											srcset="./images/mobile-portfolio9.jpg 1x, ./images/mobile-portfolio9@2x.jpg 2x, ./images/mobile-portfolio9@3x.jpg 3x"
+											media="(max-width: 767px)"
+											type="image/jpeg"
+										/>
+
+										<img
+											srcset="
+												./images/mobile-portfolio9.jpg     450w,
+												./images/mobile-portfolio9@2x.jpg  900w,
+												./images/mobile-portfolio9@3x.jpg 1350w
+											"
+											sizes="50vw"
+											src="./images/mobile-portfolio9.jpg"
+											alt="Руки розробника на клавиатурі ноутбука"
+										/>
+									</picture>
 									<div class="gallery__card">
 										<h3 class="gallery__text">
 											Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить

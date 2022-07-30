@@ -13,6 +13,13 @@
 
 .works__title {
     @extend %title;
+    margin: 0 0 30px;
+    
+    @media screen and (min-width: 1200px) {
+        font-size: 36px;
+        line-height: 1.17;
+        margin: 0 0 50px;
+    }
 }
 
 .works__list {

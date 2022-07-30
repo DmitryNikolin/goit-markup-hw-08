@@ -24,7 +24,6 @@
 }
 
 %section {
-    max-width: 1600px;
     margin: 0 auto;
     text-align: center;
     padding-top: calc(2 * var(--items-between));
@@ -64,8 +63,8 @@
 
 %title {
     font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
+    font-size: 28px;
+    line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
