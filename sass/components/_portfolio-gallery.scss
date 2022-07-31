@@ -1,11 +1,12 @@
 .gallery {
     @extend %list;
+    display: flex;
+    flex-wrap: wrap;
 
     @media screen and (min-width: 768px) {
-        display: flex;
-        flex-wrap: wrap;
         margin-top: calc(-1 * var(--items-between));
-        margin-left: calc(-1 * var(--items-between));
+        margin-left: calc(-1 * var(--items-between) / 2);
+        margin-right: calc(-1 * var(--items-between) / 2);
         align-items: stretch;
     }
 }
@@ -17,7 +18,7 @@
     text-align: left;
 
     @media screen and (max-width: 767px) {
-        &:nth-child(3n) {
+        &:nth-child(2n) {
             margin-right: 0;
         }
     }
@@ -74,7 +75,7 @@
 }
 
 .gallery__img {
-    width: 100%;
+    max-width: 100%;
 }
 
 .gallery__card {

@@ -45,6 +45,10 @@
     transition: fill 250ms var(--cubic-bezier);
 }
 
+.social__icon--footer {
+    fill: var(--menu-bck);
+}
+
 .social-links {
     @extend %list;
     display: inline-flex;
